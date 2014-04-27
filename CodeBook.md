@@ -7,6 +7,7 @@ For the provided UCI HAR Dataset the following vars are set from run_analysis.R.
 A data.table named `tidy` is set with the following columns.  All units are maintained from the original data set.
 
  | Column                       | Original Name               |
+ | ---------------------------- | --------------------------- |
  | Activity                     |                             |
  | Subject                      |                             |
  | Time.BodyAcc.Mean.X          | tBodyAcc-mean()-X           |
@@ -80,13 +81,12 @@ A data.table named `tidy` is set with the following columns.  All units are main
 
 A data.table named `tidy.mean` is set with the following columns.  All units are maintained from the original data set.
 
- | column      | description                                              | type    |
- | Subject     | Identifier of the subject                                | integer |
- | Activity    | Label of the activity                                    | factor  |
- | MeanSamples | Mean of variables by Subject + Activity provided in tidy | numeric |
-
+ | column       | description                                              | type    |
+ | ------------ | -------------------------------------------------------- | ------- |
+ | Subject      | Identifier of the subject                                | integer |
+ | Activity     | Label of the activity                                    | factor  |
+ | MeanSamples  | Mean of variables by Subject + Activity provided in tidy | numeric |
 
 ### Notes
 
  [1] Original data used: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
- [2]
