@@ -44,7 +44,7 @@ rename.features <- function(col) {
     return(col)
 }
 
-## Extracts only the measurements on the mean and standard deviation for each measurement.
+## Extracts only the measurements on the mean and standard deviation for each measurement of given data.
 
 tidy <- rbind(data.set$test, data.set$train)[,c(1, 2, grep("mean\\(|std\\(", data.set$features$name) + 2)]
 
