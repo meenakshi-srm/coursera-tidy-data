@@ -32,7 +32,7 @@ day            16
 svn rev        62743
 language       R
 version.string R version 3.0.1 (2013-05-16)
-nickname       Good Sport
+nickname       Meena
 ```
 
 ##  Running
