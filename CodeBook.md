@@ -1,4 +1,4 @@
-## Code Book
+## Code Book for this dataset
 
 For the provided UCI HAR Dataset the following vars are set from run_analysis.R.  See the [README](README.md) for additional details.
 
